@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/backgroundyandex" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пройти обучение"
+        android:textColor="@color/white"
+        android:padding="8dp"
+        android:layout_margin="5dp"
+        android:textSize="12sp"
+        android:background="@drawable/cardview"
+        android:id="@+id/buttonTutorial">
+    </androidx.appcompat.widget.AppCompatButton>
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:backgroundTintMode="screen">
+    </FrameLayout>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        app:strokeWidth="2dp"
+        app:cardCornerRadius="30sp">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/Navigation"
+            android:layout_gravity="fill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:itemIconTint="@color/white"
+            app:itemActiveIndicatorStyle="@color/white"
+            app:itemTextColor="@color/white"
+            app:itemBackground="@color/gray"
+            app:menu="@menu/navigation_menu">
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

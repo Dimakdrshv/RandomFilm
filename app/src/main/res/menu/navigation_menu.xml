@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Выбор фильма"
+        android:id="@+id/Movie"
+        android:icon="@drawable/baseline_app_shortcut_24"
+        android:iconTintMode="@drawable/customnavigationbar">
+    </item>
+    <item
+        android:title="Избранное"
+        android:id="@+id/Favour"
+        android:icon="@drawable/baseline_archive_24"
+        android:iconTintMode="@drawable/customnavigationbar">
+    </item>
+    <item
+        android:title="Настройки"
+        android:id="@+id/Set"
+        android:icon="@drawable/twotone_app_settings_alt_24"
+        android:iconTintMode="@drawable/customnavigationbar">
+    </item>
+</menu>

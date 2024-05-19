@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "459578252569",
+    "firebase_url": "https://films-c4dc3-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "films-c4dc3",
+    "storage_bucket": "films-c4dc3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:459578252569:android:704805643efa30e8903988",
+        "android_client_info": {
+          "package_name": "com.example.randomfilm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZ-AaCXQzYL7DSSm720ZFCh6CGbZnPBJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
